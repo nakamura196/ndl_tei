@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- <?xml-stylesheet type="text/xsl" href="./mirador.xsl"?> -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Sample</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb facs="#p1" n="1"/>
+			<ab corresp="#p1-0" type="HONBUN">あああ</ab>
+			<pb facs="#p2" n="2"/>
+			<ab corresp="#p2-0" type="HONBUN">いいい</ab>
+		</body>
+	</text>
+</TEI>

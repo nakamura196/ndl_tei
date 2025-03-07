@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "ndl_tei"
+  site-url: "https://nakamura196.github.io/ndl_tei"
+  description: ""
+  repo-branch: main
+  repo-url: "https://github.com/nakamura196/ndl_tei"

@@ -1,0 +1,42 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ndl_tei",
+    "section": "",
+    "text": "Install latest from the GitHub repository:\n$ pip install git+https://github.com/nakamura196/ndl_tei.git\n\n\n\nDocumentation can be found hosted on this GitHub repository’s pages.",
+    "crumbs": [
+      "ndl_tei"
+    ]
+  },
+  {
+    "objectID": "index.html#usage",
+    "href": "index.html#usage",
+    "title": "ndl_tei",
+    "section": "",
+    "text": "Install latest from the GitHub repository:\n$ pip install git+https://github.com/nakamura196/ndl_tei.git\n\n\n\nDocumentation can be found hosted on this GitHub repository’s pages.",
+    "crumbs": [
+      "ndl_tei"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "ndl_tei",
+    "section": "How to use",
+    "text": "How to use\n\nfrom ndl_tei.core import Client\n\n\nndl_xml_path = \"./ndl.xml\"\noutput_path = \"./ndl.tei.xml\"\n\ntitle = \"Sample\"\n\nclient = Client(ndl_xml_path, title, output_path)\nclient.convert()",
+    "crumbs": [
+      "ndl_tei"
+    ]
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "source\n\nClient\n\n Client (ndl_xml_path:str, title:str, output_path:str,\n         manifest_path:str=None)\n\nInitialize self. See help(type(self)) for accurate signature.\n\nsource\n\n\nClient.convert\n\n Client.convert ()",
+    "crumbs": [
+      "core"
+    ]
+  }
+]
